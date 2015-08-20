@@ -1,0 +1,19 @@
+{
+  "name": "kanban-api-server",
+  "version": "0.0.1",
+  "description": "Api server for the Pro React sample kanban app project",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pro-react/kanban-api-server.git"
+  },
+  "author": "Cássio Zen",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "sqlite3": "^3.0.10",
+    "sequelize": "^3.6.0",
+    "epilogue": "git+ssh://git@github.com/dchester/epilogue.git"
+  }
+}
